@@ -1,0 +1,37 @@
+h3 {
+    font-weight: 300;
+    font-size: 28px;
+    margin: 4px 0px;
+}
+
+.task-list-container {
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    padding: 8px 24px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    transition: 0.3s;
+}
+.task-list-container:hover {
+    border: 1px solid #1976d2;
+}
+.description{
+    margin-top: 8px;
+    margin-bottom: 12px;
+    font-weight: 200;
+    word-break: break-all;
+}
+.date {
+    font-size: 12px;
+    color: gray;
+    margin:8px 0px;
+}
+.edit-delete-button-container {
+    display: flex;
+}
+.edit-button {
+    color: gray;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.list-container {
+  width: 62%;
+}
+
+@media only screen and (max-width: 768px) {
+  .list-container {
+    width: 96%;
+  }
+}
